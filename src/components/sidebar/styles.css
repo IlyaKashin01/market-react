@@ -1,0 +1,100 @@
+.header {
+    background-color: #2B2D33;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    display: inline;
+    margin-left: 10px;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.logo button {
+    overflow: hidden;
+    background-color: #2B2D33;
+    border: none;
+}
+
+.search input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    width: 500px;
+    height: 40px;
+}
+
+.search button {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 25px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+}
+
+.icons button img {
+    width: 30px;
+    height: 30px;
+    filter: invert(100%);
+}
+
+@media screen and (max-width: 768px) {
+    .logo h1 {
+        display: inline;
+        font-size: 20px;
+        color: #FFFFFF;
+    }
+
+    .logo button {
+        overflow: hidden;
+        background-color: #2B2D33;
+        border: none;
+    }
+
+    .search input {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 20px;
+        width: 80%;
+        margin-left: 5%;
+        height: 40px;
+    }
+
+    .icons {
+        display: flex;
+        align-items: center;
+    }
+
+    .icons button {
+        background-color: transparent;
+        border: none;
+        margin-right: 10px;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+
+    .icons button img {
+        width: 20px;
+        height: 20px;
+        filter: invert(100%);
+    }
+
+    .icons h3 {
+        font-size: small;
+    }
+}
